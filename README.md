@@ -35,10 +35,14 @@ Clone the repository onto your local machine or download the code from the relea
 4. Click 'Browse'
 5. Browse to the 'build.xml' file
 6. Click 'Finish'
-7. Open the Ant perspective by selecting Window > Show View > Other... > Ant
-8. Double click on the 'jar' target
+7. Open 'build.xml'
+8. Edit the ```basedir``` property of the Ant project definition to point to where you cloned the source code 
+9. Open the Ant perspective by selecting Window > Show View > Other... > Ant
+10. Double click on the 'jar' target
 
 ####Commandline
+NOTE: you must have Apache Ant installed.
+
 1. Open a terminal
 2. Navigate to the directory you saved the source
 3. Run the following command: ```ant jar```
